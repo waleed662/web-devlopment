@@ -1,0 +1,70 @@
+nav {
+    grid-area: header;
+  
+    text-transform: uppercase;
+    
+}
+ 
+ body {
+    background-color: lightblue;
+  }
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(7, 7, 7);
+  }
+  
+  li a{
+    float: left;
+  }
+  
+  li a {
+    color: white;
+    text-align: center;
+    display: block;
+    padding: 14px 16px;
+    text-decoration: none;
+    
+  }
+  
+  li a:hover {
+    background-color: gray;
+  }
+main {
+    grid-area: main;
+  
+  color: black;
+  
+  }
+  aside {
+    grid-area: aside;
+  
+  
+  }
+  footer {
+    grid-area: footer;
+  background-color:black;
+  color: white;
+  position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+       
+        text-align: center
+  }
+  body {
+    background-image: url("images/untitled folder 2/untitled\ folder\ 2/landscape.jpg");
+  }
+  
+  body {
+    display: grid;
+    grid-template-columns: 30% 70% ;
+    grid-template-rows: max-content;
+    grid-template-areas: "header header"
+                        " main aside"
+                         " footer footer";
+  }
+  
